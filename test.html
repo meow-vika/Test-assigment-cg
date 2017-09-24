@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+  <div class="slider-wrapper" id="wrapper">
+    <div class="buttons" id="buttons">
+      <div class="button" id="button-left">&laquo;</div>
+      <div class="button" id="button-right">&raquo;</div>
+    </div>
+    <div class="slider-container" id="slider-container">
+      <div class="slider" id="slider">
+
+      </div>
+    </div>
+
+    <div class="cart" id="cart">
+      <table>
+        <thead>
+          <tr>
+            <td>Название</td>
+            <td>Цена с учетом скидки</td>
+          </tr>
+        </thead>
+        <tbody id="about">
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Итог</td>
+            <td id="totalPrice"></td>
+          </tr>
+          <tr>
+            <td>Скидка</td>
+            <td id="discountPrice"></td>
+          </tr>
+          <tr>
+            <td>Сумма без скидки</td>
+            <td id="fullPrice"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/test.js" type="text/javascript">
+  </script>
+
+</html>
